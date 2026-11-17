@@ -5,6 +5,7 @@
 import pytest
 import requests
 from helpers import get_courier_by_id, create_courier, delete_courier
+from api_client import CourierAPIClient
 
 
 @pytest.fixture
